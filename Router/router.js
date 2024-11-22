@@ -1,4 +1,4 @@
-import Route from "../javascript/route.js";
+import Route from "./allRoutes.js";
 
 import { allRoutes, websiteName } from "./allRoutes.js";
 

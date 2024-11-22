@@ -1,4 +1,4 @@
-import Route from "../javascript/allroute.js";
+import Route from "./Route.js";
 
 //Définir ici vos routes
 
