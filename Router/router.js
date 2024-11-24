@@ -1,4 +1,4 @@
-import Route from "./allRoutes.js";
+import Route from "./Route.js";
 
 import { allRoutes, websiteName } from "./allRoutes.js";
 
@@ -10,7 +10,8 @@ const route404 = new Route("404", "Page introuvable", "/pages/404.html");
 
 const getRouteByUrl = (url) => {
 
-  let currentRoute = null;
+  let currentRoute = allRoutes.find(element => element.url === url);
+  return currentRoute || route404; 
 
   // Parcours de toutes les routes pour trouver la correspondance
 
