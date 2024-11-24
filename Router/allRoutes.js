@@ -6,9 +6,9 @@ export const allRoutes = [
 
     new Route("/", "Accueil", "/pages/home.html"),
     new Route("/galerie", "galerie", "/pages/galerie.html"),
-    new Route("/connexion", "connexion", "/pages/connexion.html"),
-    new Route("/inscription", "inscription", "/pages/inscription.html"),
-    new Route("/compte", "compte", "/pages/compte.html"),
+    new Route("/connexion", "connexion", "/pages/auth/connexion.html"),
+    new Route("/inscription", "inscription", "/pages/auth/inscription.html"),
+    new Route("/compte", "compte", "/pages/auth/compte.html"),
 
 
 
